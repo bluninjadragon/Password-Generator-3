@@ -15,7 +15,7 @@ let passwordLength = 0
 let passwordRemainingLength = 0;
 
 //all possibilities in one array
-let allChars = ' !\"#$%&\'()*+,-./:;<=>?@[]^_`{|}~abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'.split('');
+let allChars = '!\"#$%&\'()*+,-./:;<=>?@[]^_`{|}~abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'.split('');
 
 //this password will be pushed into the empty array
 //after function picks from guaranteed+randomized choices in an array
