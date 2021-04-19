@@ -39,7 +39,7 @@ function passwordLengthPrompt() {
 function specialCharPrompt() {
   let specialCharYesNo = confirm("Would you like your password to have at least one special character?");
 if (specialCharYesNo === true) {
-    specialChar = ' !\"#$%&\'()*+,-./:;<=>?@[]^_`{|}~'.split('');
+    specialChar = '!\"#$%&\'()*+,-./:;<=>?@[]^_`{|}~'.split('');
     passwordRemainingLength ++;
 } else {
   specialChar = [];
@@ -75,7 +75,7 @@ if (numbersCaseYesNo === true) {
     numbers = '0123456789'.split('');
     passwordRemainingLength ++;
 } else {
-  lowerCase = [];
+  numbers = [];
 }}
 
 //the following two functions are code hints suggested from instructor during office hours on 4/15
